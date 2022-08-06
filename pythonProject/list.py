@@ -1,0 +1,17 @@
+x=[1,2,3,4,5,6,7,8,9]
+print(x)
+a=[100]
+b=[10]
+print(a+b)
+y=[100+200]
+print(y)
+print(type(x))
+print(x[2:5])
+print(x[:5])
+print(x[2:])
+x[2]=10
+print(x)
+x[2]=3
+print(x)
+x[2:]=10,11
+print(x)
